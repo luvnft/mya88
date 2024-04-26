@@ -31,7 +31,7 @@ export const AuthForm = ({ onSubmit }: AuthFormProps) => {
             radius="full"
             className="object-cover object-center pointer-events-none select-none ring-2 ring-offset-2 ring-offset-default-100 ring-pink-500"
           />
-          <div className="text-sm uppercase">📺 WEB5 TRIBE ONLY✨</div>
+          <div className="text-sm uppercase">📺 Subscribe as a NFTV Discord Biz or LNElord to watch scheduled live events, votes, stories, quests, auctions, and NFT drops in the NFTV #ytlive channel 24/7✨</div>
           <div className="flex gap-2">
             <Input
               value={passphrase}

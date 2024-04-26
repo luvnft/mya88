@@ -9,9 +9,9 @@ export const AuthorSection = () => {
   return (
     <div className="flex self-end mt-2 relative select-none">
       <div className="flex flex-col items-center justify-center text-xxs leading-none">
-        Mya88 {appVersion ?? "unknown version"}
-        <div>Created By No.159</div>
-        <div>Sawa</div>
+        YTLIVE {appVersion ?? "unknown version"}
+        <div>Youtube live stream chat message viewer</div>
+        <div>WEB5</div>
       </div>
       <a
         className="flex place-items-center p-2"

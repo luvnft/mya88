@@ -26,12 +26,23 @@ export const AuthForm = ({ onSubmit }: AuthFormProps) => {
           shadow="lg"
         >
           <Image
-            src={"/greeting.webp"}
+            src="/greeting.webp"
             alt="banner"
             radius="full"
             className="object-cover object-center pointer-events-none select-none ring-2 ring-offset-2 ring-offset-default-100 ring-pink-500"
           />
-          <div className="text-sm lowercase">📺 Subscribe to <a href="https://discord.com/servers/luv-nft-910051231437819914" style="font-weight: bold;">NFTV</a> Discord as a Biz or LNElord to watch worldwide scheduled live events, votes, stories, quests, auctions, and NFT drops in the NFTV #ytlive channel 24/7 ✨</div>
+          <div className="text-sm lowercase">
+            📺 Subscribe to{" "}
+            <a
+              href="https://discord.com/servers/luv-nft-910051231437819914"
+              style={{ fontWeight: "bold" }}
+            >
+              NFTV
+            </a>{" "}
+            Discord as a Biz or LNElord to watch worldwide scheduled live
+            events, votes, stories, quests, auctions, and NFT drops in the NFTV
+            #ytlive channel 24/7 ✨
+          </div>
           <div className="flex gap-2">
             <Input
               value={passphrase}
@@ -44,9 +55,13 @@ export const AuthForm = ({ onSubmit }: AuthFormProps) => {
                   onClick={toggleVisibility}
                 >
                   {isVisible ? (
-                    <EyeSlashFilledIcon className="text-2xl text-default-400 pointer-events-none" />
+                    <EyeSlashFilledIcon
+                      className="text-2xl text-default-400 pointer-events-none"
+                    />
                   ) : (
-                    <EyeFilledIcon className="text-2xl text-default-400 pointer-events-none" />
+                    <EyeFilledIcon
+                      className="text-2xl text-default-400 pointer-events-none"
+                    />
                   )}
                 </button>
               }
@@ -68,7 +83,7 @@ export const AuthForm = ({ onSubmit }: AuthFormProps) => {
                 <Spinner color="default" size="sm" />
               ) : (
                 <Image
-                  src={"/key.svg"}
+                  src="/key.svg"
                   alt="key-icon"
                   radius="full"
                   height={28}

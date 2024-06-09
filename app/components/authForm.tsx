@@ -31,7 +31,7 @@ export const AuthForm = ({ onSubmit }: AuthFormProps) => {
             radius="full"
             className="object-cover object-center pointer-events-none select-none ring-2 ring-offset-2 ring-offset-default-100 ring-pink-500"
           />
-          <div className="text-sm uppercase">📺 Subscribe to <a href="https://discord.com/servers/arvrtise-1034757895268618260">Arvrtise</a>, <a href="https://discord.com/servers/atl5d-1244450286337003520">ATL5D</a>, <a href="https://discord.com/servers/cre-1163344441436819497">CRE</a>, <a href="https://discord.com/servers/hair-1188100125705375806 ">HAIR</a>, <a href="https://discord.com/servers/healxyz-1165931081564946443 ">HealXYZ</a>, <a href="https://discord.com/servers/luv-nft-910051231437819914">NFTV</a> Discord for the key to watch scheduled LIVE events on YouTube #ytlive channel 24/7✨</div>
+          <div className="text-sm uppercase">📺 Subscribe to <a href="https://discord.com/servers/arvrtise-1034757895268618260"><b>Arvrtise</b></a>, <a href="https://discord.com/servers/atl5d-1244450286337003520"><b>ATL5D</b></a>, <a href="https://discord.com/servers/cre-1163344441436819497"><b>CRE</b></a>, <a href="https://discord.com/servers/hair-1188100125705375806 "><b>HAIR</b></a>, <a href="https://discord.com/servers/healxyz-1165931081564946443 "><b>HealXYZ</b></a>, <a href="https://discord.com/servers/luv-nft-910051231437819914"><b>NFTV</b></a> Discord for the key to watch scheduled LIVE events on YouTube #ytlive channel 24/7✨</div>
           <div className="flex gap-2">
             <Input
               value={passphrase}
